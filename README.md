@@ -141,7 +141,7 @@ Sam Johnston C
 B.Tech – Artificial Intelligence & Data Science
 St. Joseph College of Engineering
 
-###⭐ Acknowledgments
+### ⭐ Acknowledgments
 
 - Kaggle / Public plant disease datasets
 - TensorFlow & Keras documentation
