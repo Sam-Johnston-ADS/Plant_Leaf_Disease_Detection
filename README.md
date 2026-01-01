@@ -120,26 +120,29 @@ Open the notebook:
 ```bash
 EDA.ipynb
 ```
+
 Includes:
-
 - Class distribution
-
 - Sample images per class
-
 - Image shape analysis
 
-🛠️ Technologies Used
+###🛠️ Technologies Used
 
-Python
+- Python
+- TensorFlow
+- Keras
+- NumPy
+- Matplotlib
+- OpenCV
+- Scikit-learn
 
-TensorFlow
+### 👨‍💻 Author
+Sam Johnston C
+B.Tech – Artificial Intelligence & Data Science
+St. Joseph College of Engineering
 
-Keras
+###⭐ Acknowledgments
 
-NumPy
-
-Matplotlib
-
-OpenCV
-
-Scikit-learn
+- Kaggle / Public plant disease datasets
+- TensorFlow & Keras documentation
+- Open-source AI community
