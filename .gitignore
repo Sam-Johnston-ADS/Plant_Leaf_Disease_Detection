@@ -1,0 +1,21 @@
+# Dataset
+data/
+dataset/
+images/
+
+# Models
+*.h5
+*.keras
+model/
+
+# Virtual Environment
+tf_env/
+venv/
+
+# Cache & temp
+__pycache__/
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
