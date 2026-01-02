@@ -3,9 +3,9 @@ import numpy as np
 import os
 from tensorflow.keras.preprocessing import image
 
-# ======================
+
 # CONFIGURATION
-# ======================
+
 MODEL_PATH = r"C:\Users\Sam\Desktop\Plant_Leaf_Disease_Detection\model\plant_leaf_cnn_model.h5"  # change if using .keras
 IMAGE_SIZE = 128
 
@@ -28,16 +28,16 @@ CLASS_NAMES = [
     'Tomato___healthy'
 ]
 
-# ======================
+
 # LOAD MODEL
-# ======================
+
 print("🔄 Loading model...")
 model = tf.keras.models.load_model(MODEL_PATH)
 print("✅ Model loaded successfully")
 
-# ======================
+
 # PREDICTION FUNCTION
-# ======================
+
 def predict_image(img_path):
     if not os.path.exists(img_path):
         print("❌ Image path not found!")
@@ -57,9 +57,10 @@ def predict_image(img_path):
     print(f"🦠 Disease Class : {CLASS_NAMES[predicted_index]}")
     print(f"📊 Confidence    : {confidence:.2f}%")
 
-# ======================
+
 # RUN SCRIPT
-# ======================
+
 if __name__ == "__main__":
     img_path = input("\n📸 Enter image path: ").strip().strip('"').strip("'")
     predict_image(img_path)
+
